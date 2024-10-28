@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+        
+        .page {
+            background-color: hsl(0, 0%, 12%);
+            width: 400px;
+            height: 600px;
+            place-items: center;
+            margin: 35%;
+            border-radius: 10px;
+            font-family: Inter;
+        }
+        
+        .words {
+            display: grid;
+            place-items: center;
+        }
+        
+        .image {
+            display: inline-block;
+            position: relative;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 10%;
+            width: 100px;
+        }
+        
+        h3 {
+            margin-bottom: 10px;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        
+        .location {
+            color: hsl(75, 94%, 57%);
+            margin-top: 5px;
+            padding-top: 0px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .info {
+            font-size: 15px;
+        }
+        
+        .click {
+            display: grid;
+            gap: 10px;
+            margin-left: 10%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        
+        a {
+            background-color: hsl(0, 0%, 20%);
+            color: white;
+            height: 30px;
+            text-decoration: none;
+            font-size: 14px;
+            padding-top: 12px;
+            font-weight: 600;
+            border-radius: 5px;
+            width: 90%;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="page">
+        <div class="words">
+            <img src="./assets/images/avatar-jessica.jpeg" alt="dp" class="image" />
+
+            <h3>Jessica Randall</h3>
+
+            <p class="location">London, United Kingdom</p>
+
+            <p class="info">"Front-end developer and avid reader."</p>
+        </div>
+
+        <div class="click">
+            <a href="#">GitHub</a>
+            <a href="#">Frontend Mentor</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </main>
+
+    <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+</body>
+
+</html>
